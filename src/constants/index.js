@@ -209,7 +209,7 @@ const testimonials = [
     name: "Akriti Karn",
     designation: "International Sales Executive",
     company: "B2b Exports LLC",
-    image: "https://media.licdn.com/dms/image/D4D03AQEkxTKX9IH4LA/profile-displayphoto-shrink_800_800/0/1681407522164?e=1726099200&v=beta&t=_ARwdO7VYUcgYuhILOcPmdnXze10O_1yuHEc3RaHGgw",
+    image: "https://media.licdn.com/dms/image/D5603AQHCEqMLJJRIxA/profile-displayphoto-shrink_400_400/0/1720454872706?e=1726099200&v=beta&t=rlz9s1ATsSMCV87iWnEPNqDawWYYPMJQzUrOg9DR8G4",
   },
   {
     testimonial:
