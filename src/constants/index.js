@@ -121,14 +121,14 @@ const educations = [
   {
     school_name: "Vellore Institute of Technology, Bhopal",
     department: "B. Tech (CSE) Computer Science",
-    date: "Aug 21 – Ongoing",
+    date: "Aug 2021 – Aug 2025",
     cgpa: "CGPA: 8.31/10",
     icon: vitLogo,
   },
   {
     school_name: "Darbhanga Public School, Darbhanga",
     department: "Class X & XII",
-    date: "Class XII: July 21 – May 19 | Class X: --",
+    date: "Class XII: July 2021 | Class X: May 2019 ",
     cgpa: "Class XII Percentage: 82.4% | Class X Percentage: 92%",
     icon: dpsLogo,
   },
