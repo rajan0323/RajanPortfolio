@@ -71,7 +71,7 @@ const Navbar = () => {
           <a href="https://github.com/rajan0323" target="_blank" rel="noopener noreferrer">
             <img src={github} alt="GitHub" className='w-9 h-9' />
           </a>
-          <a href="https://x.com/NologyTricks" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/ra.jan0323/" target="_blank" rel="noopener noreferrer">
             <img src={x} alt="X" className='w-9 h-9' />
           </a>
           <a href="https://leetcode.com/u/rajankumar_2021/" target="_blank" rel="noopener noreferrer">
@@ -119,7 +119,7 @@ const Navbar = () => {
               <a href="https://github.com/rajan0323" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="GitHub" className='w-6 h-6' />
               </a>
-              <a href="https://x.com/NologyTricks" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.instagram.com/ra.jan0323/" target="_blank" rel="noopener noreferrer">
                 <img src={x} alt="X" className='w-6 h-6' />
               </a>
               <a href="https://leetcode.com/u/rajankumar_2021/" target="_blank" rel="noopener noreferrer">
