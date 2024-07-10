@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, github } from "../assets";
+import linkedin from "../assets/linkedin.svg";
+import x from "../assets/x.svg";
+import leetcode from "../assets/leetcode.svg";
+import gfg from "../assets/gfg.svg";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -27,9 +30,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -43,7 +44,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-white text-[18px] font-bold cursor-pointer flex'>
             Rajan &nbsp;
             <span className='sm:block hidden'> | Tech Enthuse</span>
           </p>
@@ -62,6 +63,24 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        <div className='flex gap-4 ml-5'>
+          <a href="https://www.linkedin.com/in/rajan-kumar-080245232/" target="_blank" rel="noopener noreferrer">
+            <img src={linkedin} alt="LinkedIn" className='w-9 h-9' />
+          </a>
+          <a href="https://github.com/rajan0323" target="_blank" rel="noopener noreferrer">
+            <img src={github} alt="GitHub" className='w-9 h-9' />
+          </a>
+          <a href="https://x.com/NologyTricks" target="_blank" rel="noopener noreferrer">
+            <img src={x} alt="X" className='w-9 h-9' />
+          </a>
+          <a href="https://leetcode.com/u/rajankumar_2021/" target="_blank" rel="noopener noreferrer">
+            <img src={leetcode} alt="LeetCode" className='w-9 h-9' />
+          </a>
+          <a href="https://www.geeksforgeeks.org/user/rajankumsafq/" target="_blank" rel="noopener noreferrer">
+            <img src={gfg} alt="GeeksforGeeks" className='w-9 h-9' />
+          </a>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
@@ -92,6 +111,24 @@ const Navbar = () => {
                 </li>
               ))}
             </ul>
+
+            <div className='flex gap-4 mt-4'>
+              <a href="https://www.linkedin.com/in/rajan-kumar-080245232/" target="_blank" rel="noopener noreferrer">
+                <img src={linkedin} alt="LinkedIn" className='w-6 h-6' />
+              </a>
+              <a href="https://github.com/rajan0323" target="_blank" rel="noopener noreferrer">
+                <img src={github} alt="GitHub" className='w-6 h-6' />
+              </a>
+              <a href="https://x.com/NologyTricks" target="_blank" rel="noopener noreferrer">
+                <img src={x} alt="X" className='w-6 h-6' />
+              </a>
+              <a href="https://leetcode.com/u/rajankumar_2021/" target="_blank" rel="noopener noreferrer">
+                <img src={leetcode} alt="LeetCode" className='w-6 h-6' />
+              </a>
+              <a href="https://www.geeksforgeeks.org/user/rajankumsafq/" target="_blank" rel="noopener noreferrer">
+                <img src={gfg} alt="GeeksforGeeks" className='w-6 h-6' />
+              </a>
+            </div>
           </div>
         </div>
       </div>
