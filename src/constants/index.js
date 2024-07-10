@@ -114,6 +114,27 @@ const technologies = [
   },
 ];
 
+const vitLogo = "https://media.licdn.com/dms/image/C560BAQG37hiyJOAqGQ/company-logo_200_200/0/1630667326355?e=1728518400&v=beta&t=JcnJ7fs34MMTyr3puOto7y9HT-RRTi3kdlIFZ4H3ZTM";
+const dpsLogo = "https://media.licdn.com/dms/image/C4E0BAQHZ1h2-z9_ZvA/company-logo_200_200/0/1630655149568?e=1728518400&v=beta&t=grc0G0Ck72F_r9saK8iYg4e78WSS5DuFDvQmX9iTRBQ";
+
+const educations = [
+  {
+    school_name: "Vellore Institute of Technology, Bhopal",
+    department: "B. Tech (CSE) Computer Science",
+    date: "Aug 21 – Ongoing",
+    cgpa: "CGPA: 8.31/10",
+    icon: vitLogo,
+  },
+  {
+    school_name: "Darbhanga Public School, Darbhanga",
+    department: "Class X & XII",
+    date: "Class XII: July 21 – May 19 | Class X: --",
+    cgpa: "Class XII Percentage: 82.4% | Class X Percentage: 92%",
+    icon: dpsLogo,
+  },
+];
+
+
 const experiences = [
   {
     title: "AWS Certified Cloud Practitioner",
@@ -188,7 +209,7 @@ const testimonials = [
     name: "Akriti Karn",
     designation: "International Sales Executive",
     company: "B2b Exports LLC",
-    image: "https://media.licdn.com/dms/image/D5603AQHCEqMLJJRIxA/profile-displayphoto-shrink_400_400/0/1720454872706?e=1726099200&v=beta&t=rlz9s1ATsSMCV87iWnEPNqDawWYYPMJQzUrOg9DR8G4",
+    image: "https://media.licdn.com/dms/image/D4D03AQEkxTKX9IH4LA/profile-displayphoto-shrink_800_800/0/1681407522164?e=1726099200&v=beta&t=_ARwdO7VYUcgYuhILOcPmdnXze10O_1yuHEc3RaHGgw",
   },
   {
     testimonial:
@@ -274,4 +295,5 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, educations };
+
