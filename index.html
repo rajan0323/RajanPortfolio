@@ -4,10 +4,63 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rajan kumar | Portfolio</title>
+    <title>Rajan Kumar | Portfolio</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #161414; /* Light background for contrast */
+      }
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: calc(100% - 20px); /* Adjust width to fit padding */
+        background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+        color: #333; /* Dark text for better contrast */
+        text-align: center;
+        padding: 30px; /* Increased padding for a "fatter" appearance */
+        font-size: 18px; /* Larger font size */
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Enhanced shadow for 3D effect */
+        border-radius: 12px; /* Rounded corners */
+        transform: translateY(4px); /* Slightly lift footer */
+        transition: all 0.3s ease; /* Smooth transition for hover effect */
+        border: 2px solid transparent; /* Initial transparent border */
+        background-clip: padding-box; /* Ensures the border doesn't cover the background */
+        position: relative; /* For pseudo-element positioning */
+      }
+      footer::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 12px;
+        border: 2px solid rgba(255, 255, 255, 0.2); /* Gradient border effect */
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(145deg, rgba(0, 0, 0, 0.1), transparent); /* Gradient border */
+        z-index: -1; /* Position behind footer content */
+        transition: all 0.3s ease;
+      }
+      footer:hover::before {
+        border-color: rgba(255, 255, 255, 0.4); /* Darker border on hover */
+        background: linear-gradient(white, white) padding-box,
+                    linear-gradient(145deg, rgba(0, 0, 0, 0.2), transparent); /* Adjust gradient on hover */
+      }
+      footer p {
+        margin: 0;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Pronounced text shadow */
+        font-weight: bold; /* Bold text for emphasis */
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+    <footer>
+      <p>Made with ❤️ by Rajan Kumar</p>
+    </footer>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+
+
