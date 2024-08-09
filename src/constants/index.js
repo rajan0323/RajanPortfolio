@@ -147,9 +147,6 @@ const experiences = [
       "Designing and deploying scalable, highly available, and fault-tolerant systems on AWS.",
       "Managing and implementing AWS cloud infrastructure services such as EC2, S3, RDS, and VPC.",
       "Collaborating with cross-functional teams to define and implement cloud solutions aligned with business requirements.",
-      "Ensuring security and compliance best practices are followed in the cloud environment.",
-      "Monitoring and optimizing the performance, scalability, and cost of AWS resources.",
-      "Participating in cloud architecture reviews and providing recommendations for improvements.",
     ],
   },
   {
@@ -163,10 +160,6 @@ const experiences = [
       "Understanding the fundamental concepts and architecture of cloud computing.",
       "Exploring various cloud service models such as IaaS, PaaS, and SaaS.",
       "Learning about virtualization technologies and their role in cloud computing.",
-      "Implementing cloud storage solutions and managing data in the cloud.",
-      "Analyzing cloud security challenges and implementing best practices for secure cloud environments.",
-      "Hands-on experience with leading cloud platforms and services, including AWS, Azure, and Google Cloud.",
-      "Participating in projects and assignments to apply cloud computing concepts in real-world scenarios.",
     ],
   },
   {
@@ -180,24 +173,19 @@ const experiences = [
       "Mastering advanced data structures such as trees, graphs, heaps, and hash tables in Java.",
       "Implementing efficient algorithms for sorting, searching, and graph traversal.",
       "Developing problem-solving skills through competitive programming exercises and coding challenges.",
-      "Optimizing code performance and understanding time and space complexity.",
-      "Applying dynamic programming techniques to solve complex problems.",
-      "Participating in code reviews and collaborative coding sessions to enhance coding practices.",
-      "Completing hands-on projects to solidify understanding of high-performance coding principles and techniques in Java.",
     ],
   },
   {
-    title: "The Bits and Bytes of Computer Networking",
-    company_name: "Coursera (link)",
-    company_link: "https://www.coursera.org/account/accomplishments/certificate/5UCUR7DUK3DZ",
+    title: "Postman API Fundamentals Student Expert",
+    company_name: "Postman (link)",
+    company_link: "https://badgr.com/public/assertions/vQUm5ViaQEmhNp-HmDx60g",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Jan 2023",
+    date: "July 26, 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Demonstrated proficiency in building and testing APIs using Postman.",
+      "Successfully completed hands-on assignments to earn the certification.",
+      "Gained expertise in API lifecycle management and best practices.",
     ],
   },
 ];
@@ -297,4 +285,6 @@ const projects = [
  
 ];
 export { services, technologies, experiences, testimonials, projects, educations };
+
+
 
